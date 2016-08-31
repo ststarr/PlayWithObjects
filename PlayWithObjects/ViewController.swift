@@ -9,7 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var CaringClub: UIButton!
+    
+    @IBOutlet weak var BeTheChange: UIButton!
+    
+    @IBOutlet weak var WhoWeHelp: UIButton!
+    
+    @IBOutlet weak var Video: UIButton!
+    
+    @IBOutlet weak var NewsEvents: UIButton!
+    
+    @IBAction func MapWhoHelped(sender: AnyObject) {
+    }
+    
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
